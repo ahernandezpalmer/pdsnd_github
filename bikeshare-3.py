@@ -232,7 +232,7 @@ def main():
         df = load_data(city, month, day)
 
         if city.lower() != 'washington':
-            
+            # display raw data was moved to the beginning
             display_raw_data(df)
             time_stats(df)
             station_stats(df)
