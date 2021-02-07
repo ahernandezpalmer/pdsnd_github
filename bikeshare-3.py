@@ -21,7 +21,7 @@ def get_filters():
     city_list = ["chicago", "new york city", "washington"]
     print('Cities available for analysis: Chicago, New York City, Washington: ')
     city = input('Please enter the name of the City: ')
-    city=city.lower()
+    city=city.lower() # using lower to allow the user to enter any capital letter
     while True:
         try:
             if city not in city_list:
