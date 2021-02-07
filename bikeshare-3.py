@@ -144,7 +144,7 @@ def time_stats(df):
     popular_hour = df['hour'].mode()[0]
     print('Most Popular Start Hour:', popular_hour)
 
-
+    # adding function round() to eliminate unnecesary decimals
     print("\nThis took %s seconds." % round((time.time() - start_time),3))
     print('-'*40)
 
