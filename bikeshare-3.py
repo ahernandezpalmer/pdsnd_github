@@ -21,7 +21,7 @@ def get_filters():
     city_list = ["chicago", "new york city", "washington"]
     print('Cities available for analysis: Chicago, New York City, Washington: ')
     city = input('Please enter the name of the City: ')
-    city=city.lower() # using lower to allow the user to enter any capital letter
+    city=city.lower() # using lower to allow the user to enter any capital letter and improve the enter process
     while True:
         try:
             if city not in city_list:
@@ -145,10 +145,16 @@ def time_stats(df):
     print('Most Popular Start Hour:', popular_hour)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     # adding function round() to eliminate unnecesary decimals
     print("\nThis took %s seconds." % round((time.time() - start_time),3))
 ||||||| merged common ancestors
 
+||||||| merged common ancestors
+
+=======
+    # adding function round() to eliminate unnecesary decimals
+>>>>>>> 9dd1ccb993abb537a082afcb332bed2bfbffc864
     print("\nThis took %s seconds." % round((time.time() - start_time),3))
 =======
 
