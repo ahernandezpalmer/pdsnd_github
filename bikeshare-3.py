@@ -144,8 +144,16 @@ def time_stats(df):
     popular_hour = df['hour'].mode()[0]
     print('Most Popular Start Hour:', popular_hour)
 
+<<<<<<< HEAD
+    # adding function round() to eliminate unnecesary decimals
+    print("\nThis took %s seconds." % round((time.time() - start_time),3))
+||||||| merged common ancestors
+
+    print("\nThis took %s seconds." % round((time.time() - start_time),3))
+=======
 
     print("\nThis took %s seconds." % round((time.time() - start_time),3)) # using round() to eliminate uneccesay decimals
+>>>>>>> refactoring
     print('-'*40)
 
 
