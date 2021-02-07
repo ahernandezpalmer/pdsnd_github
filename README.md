@@ -1,15 +1,19 @@
 ### Date created
-Include the date you created this project and README file.
 
+File created on February 5 2021
+File update on February 6 and 7 2021
 ### Project Title
-Replace the Project Title
+Bikeshare Project
 
 ### Description
-Describe what your project is about and what it does
+This file analysis the data collected in three different cities in the US Chicago, New York City and Washington for the rent of bikes. It start asking the user some information and based on that anserws provide them the analysis.
 
 ### Files used
-Include the files used
+The files used are: Bikeshare.py, washington.csv, new_york_city.csv and chicago.csv and README.md . README.md created in R suite
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Most of the quesions to finalize this project were answered by the Udacity's mentors. Some websites were consulted:
+https://www.w3schools.com/python/ref_func_round.asp
+https://stackoverflow.com/questions/4908666/how-to-use-while-not-in
+https://datatofish.com/select-rows-pandas-dataframe/
 
