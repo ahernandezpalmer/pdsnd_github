@@ -9,7 +9,7 @@ Bikeshare Project
 This file analysis the data collected in three different cities in the US Chicago, New York City and Washington for the rent of bikes. It start asking the user some information and based on that anserws provide them the analysis.
 
 ### Files used
-The files used are: Bikeshare.py, washington.csv, new_york_city.csv and chicago.csv
+The files used are: Bikeshare.py, washington.csv, new_york_city.csv and chicago.csv and README.md . README.md created in R suite
 
 ### Credits
 Most of the quesions to finalize this project were answered by the Udacity's mentors. Some websites were consulted:
